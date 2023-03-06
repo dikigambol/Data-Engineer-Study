@@ -1,4 +1,4 @@
-import requests 
+import requests
 from contextlib import closing
 import csv
 # STEP 1: 
@@ -8,19 +8,15 @@ data_harga_rumah = []
 with closing(requests.get(url, stream=True)) as r:
     f = (line.decode('utf-8') for line in r.iter_lines())
     data_harga_rumah = [row for row in csv.reader(f)]
-	
 # Buat list of dict dengan nama harga rumah
 key_harga_rumah = data_harga_rumah[0]
 harga_rumah = []
 for baris_harga_rumah in data_harga_rumah[1:]:
 	dict_harga_rumah = dict()
-	
 	for i in range(len(baris_harga_rumah)):
 		dict_harga_rumah[key_harga_rumah[i]] = baris_harga_rumah[i]
-		
 	harga_rumah.append(dict_harga_rumah)
-	
-# print(harga_rumah)
+print(harga_rumah)
 
 # STEP 2:
 # Buat fungsi  get_all_specified_attribute yang menerima parameter list_of_dictionary 
@@ -46,9 +42,9 @@ def min_value(list_attributes):
 
 # Buat fungsi dan max_value yang menerima parameter list_attribute dan 
 # mengembalikan nilai terbesar dalam list_attributes.	
-def max_value(list_attribute):
+def max_value(list_attributes):
 	max_attribute = -9999
-	for attr in list_attribute:
+	for attr in list_attributes:
 		if int(attr) > max_attribute:
 			max_attribute = int(attr)
 	return max_attribute
@@ -67,9 +63,9 @@ def transform_attribute(attr, max_attr, min_attr):
 # (sebuah list yang berisikan tipe data string) mengembalikan hasil 
 # transformasi data dari list_of_dictionary berdasarkan list_attribute_names 
 # dan attr_info telah dispesifikasikan.
-def data_transformation(list_of_dictionary, list_attributes_names):
+def data_transformation(list_of_dictionary, list_attribute_names):
 	attr_info = {}
-	for attr_name in list_attributes_names:
+	for attr_name in list_attribute_names:
 		specified_attributes = get_all_specified_attributes(list_of_dictionary, attr_name)
 		max_attr = max_value(specified_attributes)
 		min_attr = min_value(specified_attributes)
@@ -113,8 +109,7 @@ def price_based_on_similarity(data, list_of_data):
 # STEP 8:
 # Hitung harga rumah yang telah ditransformasikan ke dalam variabel 
 # harga_rumah berikut dengan atributnya attr_info
-harga_rumah, attr_info = data_transformation(harga_rumah,
-                                             ['tanah','bangunan','jarak_ke_pusat'])
+harga_rumah, attr_info = data_transformation(harga_rumah ,['tanah','bangunan','jarak_ke_pusat'])
 # Gunakan variabel data untuk memprediksi harga rumah
 data = {'tanah': 110, 'bangunan': 80, 'jarak_ke_pusat': 35}
 # Transformasikan data tersebut dengan dengan menggunakan attr_info yang telah 

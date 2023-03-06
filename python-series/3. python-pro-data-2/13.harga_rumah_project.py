@@ -1,6 +1,15 @@
 import requests
 from contextlib import closing
 import csv
+
+# Oke, kali ini serius. Kita diminta untuk mengembangkan model prediksi 
+# harga rumah di di Tangerang berdasarkan luas tanah, luas bangunan serta 
+# kedekatan lokasi dengan pusat kota. Untuk mengembangkan model prediksi ini, 
+# saya telah mengumpulkan beberapa data yang diperlukan. Coba kamu lihat
+
+# Berarti aku akan memprediksi harga rumah ini berdasarkan kemiripan atribut 
+# dari data yang telah ada ini? iya
+
 # STEP 1: 
 # Baca file "harga_rumah.txt"
 url = "https://storage.googleapis.com/dqlab-dataset/harga_rumah.txt"

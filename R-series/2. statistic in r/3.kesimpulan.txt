@@ -1,0 +1,6 @@
+Dari pembahasan materi 1 dan 2 maka kesimpulannya sebagai berikut:
+
+- Statistik merupakan ilmu pengolahan, penyajian dan analisis data.
+- Jenis-jenis data yaitu nominal, ordinal, interval, dan rasion.
+- Estimasi karakteristik data yang sering digunakan diantaranya mean, median dan modus.
+- Jenis sebaran data diantaranya range (jarak), standar deviasi, dan varians.

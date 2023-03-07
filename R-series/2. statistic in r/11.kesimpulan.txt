@@ -1,0 +1,4 @@
+Dari pembahasan materi 7 - 10 maka kesimpulannya sebagai berikut:
+- Sebelum memulai menganalisis data harus dilihat summary per tiap variabel.
+- Analisis Deskriptif digunakan untuk membangun sebuah hipotesis.
+- Analisis Inferensia digunakan untuk menguji hipotesis.

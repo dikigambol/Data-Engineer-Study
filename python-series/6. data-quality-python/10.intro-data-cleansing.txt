@@ -1,0 +1,15 @@
+Fiuh! Materi tadi benar-benar penuh dengan latihan-latihan. Walaupun latihannya singkat, 
+kalau jumlahnya banyak, ternyata menguras energi dan pikiranku juga. 
+Apa mungkin Kroma sengaja memberikan referensi yang penuh latihan agar revisian 
+aku nantinya bisa lebih lancar? Bisa juga caranya.
+
+Aku mengecek sisa materi referensi yang diberikan, masih terdapat pembahasan 
+seputar “Data Cleansing” lengkap dengan latihan-latihan singkat seperti sebelumnya. 
+Baiklah, akan kujalani! Sisa ini saja kok, aku pasti bisa, batinku percaya diri.
+
+Data Cleansing berarti proses mengidentifikasi bagian data yang salah, tidak lengkap, 
+tidak akurat, tidak relevan atau hilang dan kemudian memodifikasi, mengganti atau 
+menghapusnya sesuai dengan kebutuhan. Data Cleansing dianggap sebagai elemen dasar dari Data Science
+
+Pada bagian ini, akan membahas data cleansing dari treatment terhadap missing data, 
+treatment outliers, sampai deduplikasi data.

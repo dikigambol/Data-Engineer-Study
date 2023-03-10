@@ -1,3 +1,29 @@
+# Pendahuluan
+# “Ndra, aku sudah cukup paham dengan teorinya,” sahutku seakan memberi kode jika aku sudah siap mengerjakan proyek yang tadi dijanjikan.
+
+# “Saya suka kepercayaan dirimu, Aksara. Kalau begitu, sudah siap kalau diberi proyek?” pancing Andra.
+
+# Aku mengangguk mantap.
+
+# “Oke, untuk proyek pertama, kamu akan melakukan ETL sebelum analisis data. Karena data yang dibutuhkan masih 
+# belum bersih, sehingga tidak bisa dilakukan analisis lebih lanjut.”
+
+# Aku menyimak pemaparan dari Andra sembari memikirkan solusi untuk ETL. Tentunya bisa aku eksekusi dengan Pandas. 
+# “Baik, Ndra. Data yang dibutuhkan apa saja nantinya?”
+
+# “Data untuk cabang perusahaan ritel kita, Aksara. Berarti kumpulan data bulan Januari 2019 untuk setiap 
+# kota dan provinsi, tanggal order-nya, customer, order-nya apa aja terkait brand, product, quantity dan item price-nya juga. 
+# Dan, yang terakhir adalah GMV/Gross Merchandise Volume (total price)-nya.”
+
+# “Banyak banget!” gumamku dalam hati.
+
+# “Saya tahu kamu pasti sudah memikirkan detlennya karena data yang dibutuhkan banyak. J
+# angan khawatir, saya beri tenggat waktu sampai akhir minggu ini, bukan besok. Cukup?”
+
+# Aku mengangkat ibu jari, “Langsung aku cicil dari sekarang deh, Ndra.”
+
+# “Baik, selamat bekerja Aksara!”
+
 # Project dari Andra
 # Berikut adalah isi email yang ditugaskan oleh Andra:
 
